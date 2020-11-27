@@ -1,0 +1,64 @@
+#MySlider1 {
+  /* the slides */
+}
+
+#MySlider1 .img-fluid {
+  width: 900px;
+  height: 500px;
+}
+
+#MySlider1 .slick-dots {
+  bottom: -45px;
+}
+
+#MySlider1 .slick-dots li button:hover::before {
+  color: #ddd !important;
+}
+
+#MySlider1 .slick-dots li.slick-active {
+  border: 2px solid blue;
+  border-radius: 50%;
+}
+
+#MySlider1 .slick-dots li.slick-active button::before {
+  content: "";
+  color: red;
+}
+
+#MySlider1 .slick-dots li button::before {
+  font-size: 60px;
+}
+
+#MySlider1 .slick-slide {
+  margin: 0 10px;
+}
+
+#MySlider1 .slick-next {
+  right: 50px;
+}
+
+#MySlider1 .slick-next::before {
+  content: "\f054";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 25px;
+  background: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+#MySlider1 .slick-prev {
+  left: 25px;
+  z-index: 5;
+}
+
+#MySlider1 .slick-prev::before {
+  content: "\f053";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 25px;
+  background: #333;
+  color: #fff;
+  padding: 20px;
+}
+/*# sourceMappingURL=style.css.map */
